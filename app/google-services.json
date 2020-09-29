@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1019146891559",
+    "firebase_url": "https://login-913e6.firebaseio.com",
+    "project_id": "login-913e6",
+    "storage_bucket": "login-913e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019146891559:android:8299d92f747469bdf4b902",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ywt8ynnDxbKzuQ1f39666vssHttV7OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019146891559:android:016ebe1c28e0338cf4b902",
+        "android_client_info": {
+          "package_name": "com.example.occupancyleveltracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ywt8ynnDxbKzuQ1f39666vssHttV7OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019146891559:android:b147185bafa5c89ef4b902",
+        "android_client_info": {
+          "package_name": "com.example.reminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ywt8ynnDxbKzuQ1f39666vssHttV7OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019146891559-f8959qhs09g24ptalqlbhc58l1aovsij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
