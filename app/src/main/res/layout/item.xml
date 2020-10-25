@@ -10,43 +10,48 @@
     <LinearLayout
         android:layout_width="220dp"
         android:layout_height="match_parent"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/businessName"
-            android:layout_width="wrap_content"
+            android:id="@+id/hospitalName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
-            android:textColor="#000C5D"
-            android:textSize="22sp" />
+            android:textColor="#000000"
+            android:layout_marginTop="13dp"
+            android:textSize="17sp" />
 
-        <TextView
-            android:id="@+id/OpenClose"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textColor="#ADADAD"
-            android:textSize="18sp" />
+
 
         <TextView
             android:id="@+id/notes"
             android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="45dp">
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/OccupancyLevel"
-            android:layout_width="wrap_content"
+            android:id="@+id/OpenClose"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/numberOfBeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
             android:textColor="#F63EA5"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
 </LinearLayout>

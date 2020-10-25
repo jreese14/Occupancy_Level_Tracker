@@ -5,6 +5,7 @@ import android.view.ViewGroup;
 import android.view.View;
 import android.view.LayoutInflater;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,10 +29,11 @@ public class OccupancyAdapter extends RecyclerView.Adapter<OccupancyAdapter.MyVi
     }
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        myViewHolder.businessName.setText(data.get(i).getBusinessName());
-        myViewHolder.OpenClose.setText(data.get(i).getOpenClose());
-        myViewHolder.OccupancyLevel.setText(data.get(i).getOccupancyLevel());
-        myViewHolder.notes.setText(data.get(i).getNotes());
+
+        myViewHolder.businessName.setText("Hospital Name: "+data.get(i).gethospitalName());
+        myViewHolder.OpenClose.setText("Free Covid-19 Testing: " +data.get(i).getfreeTesting());
+        myViewHolder.OccupancyLevel.setText("Available ventilators: "+data.get(i).getnumberOfBeds());
+        myViewHolder.notes.setText("Address: "+data.get(i).getaddress());
     }
 
     @Override
@@ -42,9 +44,9 @@ public class OccupancyAdapter extends RecyclerView.Adapter<OccupancyAdapter.MyVi
         TextView businessName, OpenClose, OccupancyLevel,notes;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            businessName = (TextView)itemView.findViewById(R.id.businessName);
+            businessName = (TextView)itemView.findViewById(R.id.hospitalName);
             OpenClose = (TextView)itemView.findViewById(R.id.OpenClose);
-            OccupancyLevel = (TextView)itemView.findViewById(R.id.OccupancyLevel);
+            OccupancyLevel = (TextView)itemView.findViewById(R.id.numberOfBeds);
             notes = (TextView) itemView.findViewById(R.id.notes);
 
         }

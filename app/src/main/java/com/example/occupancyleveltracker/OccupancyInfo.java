@@ -1,52 +1,58 @@
 package com.example.occupancyleveltracker;
 
 public class OccupancyInfo {
-    String BusinessName;
-    String openClose;
-    String Notes;
-    String occupancyLevel;
+    String hospitalName;
+    String freeTesting;
+    String address;
+    String numberOfBeds;
+    String email;
 
     public OccupancyInfo(){
 
     }
 
-    public OccupancyInfo(String businessName, String openClose, String notes, String occupancyLevel) {
-        BusinessName = businessName;
-        this.openClose = openClose;
-        Notes = notes;
-        this.occupancyLevel = occupancyLevel;
+    public OccupancyInfo(String email, String hospitalName, String address, String numberOfBeds, String freeTesting) {
+        this.email = email;
+        this.hospitalName = hospitalName;
+        this.freeTesting = freeTesting;
+        this.address = address;
+        this.numberOfBeds = numberOfBeds;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
 
-    public String getBusinessName() {
-        return BusinessName;
+    public String gethospitalName() {
+        return hospitalName;
     }
 
-    public void setBusinessName(String businessName) {
-        BusinessName = businessName;
+    public void sethospitalName(String hospitalName) {
+        this.hospitalName = hospitalName;
     }
 
-    public String getOpenClose() {
-        return openClose;
+    public String getfreeTesting() {
+        return freeTesting;
     }
 
-    public void setOpenClose(String openClose) {
-        this.openClose = openClose;
+    public void setfreeTesting(String freeTesting) {
+        this.freeTesting = freeTesting;
     }
 
-    public String getNotes() {
-        return Notes;
+    public String getaddress() {
+        return address;
     }
 
-    public void setNotes(String notes) {
-        Notes = notes;
+    public void setaddress(String address) {
+        this.address = address;
     }
 
-    public String getOccupancyLevel() {
-        return occupancyLevel;
+    public String getnumberOfBeds() {
+        return numberOfBeds;
     }
 
-    public void setOccupancyLevel(String occupancyLevel) {
-        this.occupancyLevel = occupancyLevel;
+    public void setnumberOfBeds(String numberOfBeds) {
+        this.numberOfBeds = numberOfBeds;
     }
 }

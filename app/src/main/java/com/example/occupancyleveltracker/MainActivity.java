@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     OccupancyInfo post = postSnapshot.getValue(OccupancyInfo.class);
                     list.add(post);
                 }
+
                 MarketList.setAdapter(occupancyAdapter);
                 occupancyAdapter.notifyDataSetChanged();
             }
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
             public void onCancelled( DatabaseError error) {
                 //set code to show an error
                 Toast.makeText(getApplicationContext(), "No Data", Toast.LENGTH_SHORT).show();
+                Log.e("Database","Error is");
+                Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_SHORT).show();
             }
         });
 
